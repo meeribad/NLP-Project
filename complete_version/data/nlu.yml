@@ -1,0 +1,125 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey
+    - Hi bot
+    - Hey bot
+    - Hello
+    - Good morning
+    - hi again
+    - hi folks
+    - hi Mister
+    - hi pal!
+    - hi there
+    - greetings
+    - hello everybody
+    - hello is anybody there
+    - hello robot
+    - who are you?
+    - what's up
+    - how do you do?
+    - Hola !!
+    - Bonjour :)
+    - Nǐn hǎo *_*
+    - Asalaam alaikum ^_^
+    - Namaste, Namaskar Apka _||_ 
+
+- intent: goodbye
+  examples: |
+    - Bye           
+    - Goodbye
+    - See you later
+    - Bye bot
+    - Goodbye friend
+    - bye
+    - bye for now
+    - catch you later
+    - gotta go
+    - See you
+    - goodnight
+    - have a nice day
+    - i'm off
+    - see you later alligator
+    - we'll speak soon
+    - end
+    - finish
+    - Allah Hafiz
+    - Chaliye phir milenge 
+    - Tata Bye Bye 
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - Thank you so much
+    - Thanks bot
+    - Thanks for that
+    - cheers
+    - cheers bro
+    - ok thanks!
+    - perfect thank you
+    - thanks a bunch for everything
+    - thanks for the help
+    - thanks a lot
+    - amazing, thanks
+    - cool, thanks
+    - cool thank you
+    - yes, thanks!
+    - Shukriya Apka 
+    - Buenos dias 
+    - Shukran 
+
+- intent: affirm
+  examples: |
+    - y
+    - Y
+    - yes
+    - yes sure
+    - absolutely
+    - for sure
+    - yes yes yes
+    - definitely
+    - yes, it did.
+    - Haan Sahi ! 
+    - Si 
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - Nahi !
+    - n
+    - N
+    - Not helping me 
+    - No
+
+- intent: lang_search
+  examples: |
+    - I want to know about [hindi](language)
+    - Can you please search [spanish](language)?
+    - Need more info for [french](language)
+    - Lookup [gujrati](language)
+    - Help me find [urdu](language)
+    - Do you know about [russian](language)
+    - Help me search for [italian](language)
+    - Want to learn about [german](language)
+    - What is [arabic](language)
+    - I was looking to learn more about [greek](language)
+    - What can you tell me about [tamil](language)
+    - Help me know more about [konkani](language)
+    - Please search for [marathi](language)?
+    - Need resources about [french](language)
+    - Can you tell about [gujrati](language)
+    - What do you know about [thai](language)
+    - Will you search for [russian](language)
+    - Assist me in learning about [italian](language)
+    - Please give more information about [german](language)
+    - Show me results for [turkish](language)
+    - Learn more about [greek](language)
+    - Help me look for [telegu](language)
+    
