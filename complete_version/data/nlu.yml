@@ -27,26 +27,20 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - Bye           
-    - Goodbye
-    - See you later
-    - Bye bot
-    - Goodbye friend
-    - bye
-    - bye for now
-    - catch you later
-    - gotta go
-    - See you
-    - goodnight
-    - have a nice day
-    - i'm off
-    - see you later alligator
-    - we'll speak soon
-    - end
-    - finish
-    - Allah Hafiz
-    - Chaliye phir milenge 
-    - Tata Bye Bye 
+    - Tschüss          
+    - Auf Wiedersehen
+    - Bis später
+    - Tschüss Bot
+    - Auf Wiedersehen Freund
+    - Tschüss für heute
+    - bis später
+    - muss gehen
+    - Wir sehen uns
+    - Tschüss, schönen Tag noch
+    - Bis später Alligator
+    - Wir werden bald sprechen
+    - Ende
+    - Fertig 
 
 - intent: thanks
   examples: |
@@ -100,26 +94,25 @@ nlu:
 
 - intent: lang_search
   examples: |
-    - I want to know about [hindi](language)
-    - Can you please search [spanish](language)?
-    - Need more info for [french](language)
-    - Lookup [gujrati](language)
-    - Help me find [urdu](language)
-    - Do you know about [russian](language)
-    - Help me search for [italian](language)
-    - Want to learn about [german](language)
-    - What is [arabic](language)
-    - I was looking to learn more about [greek](language)
-    - What can you tell me about [tamil](language)
-    - Help me know more about [konkani](language)
-    - Please search for [marathi](language)?
-    - Need resources about [french](language)
-    - Can you tell about [gujrati](language)
-    - What do you know about [thai](language)
-    - Will you search for [russian](language)
-    - Assist me in learning about [italian](language)
-    - Please give more information about [german](language)
-    - Show me results for [turkish](language)
-    - Learn more about [greek](language)
-    - Help me look for [telegu](language)
-    
+    - Ich möchte etwas über [Hindi] (Sprache) wissen.
+    - Können Sie bitte [Spanisch] (Sprache) suchen?
+    - Benötigen Sie weitere Informationen für [Französisch] (Sprache)
+    - Lookup [gujrati] (Sprache)
+    - Hilf mir, [urdu] (Sprache) zu finden
+    - Kennen Sie [russisch] (Sprache)
+    - Hilf mir bei der Suche nach [Italienisch] (Sprache)
+    - Willst du etwas über [Deutsch] lernen (Sprache)
+    - Was ist [Arabisch] (Sprache)
+    - Ich wollte mehr über [Griechisch] (Sprache) erfahren.
+    - Was kannst du mir über [Tamil] (Sprache) erzählen?
+    - Hilf mir, mehr über [konkani] (Sprache) zu erfahren.
+    - Bitte suchen Sie nach [marathi] (Sprache)?
+    - Benötigen Sie Ressourcen zu [Französisch] (Sprache)
+    - Kannst du etwas über [gujrati] (Sprache) erzählen?
+    - Was weißt du über [thailändisch] (Sprache)
+    - Wirst du nach [russisch] (Sprache) suchen?
+    - Hilf mir beim Erlernen von [Italienisch] (Sprache)
+    - Bitte geben Sie weitere Informationen zu [Deutsch] (Sprache)
+    - Zeig mir Ergebnisse für [türkisch] (Sprache)
+    - Erfahren Sie mehr über [Griechisch] (Sprache)
+    - Hilf mir nach [telegu] (Sprache) zu suchen

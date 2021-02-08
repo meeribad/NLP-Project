@@ -18,51 +18,41 @@ entities:
 responses:
   utter_greet:
   - text: |
-      Hello! How can I help you?
+      Hallo! Womit kann ich Ihnen behilflich sein?
   - text: |
-      Hi!
+      Hallo!
   - text: |
-      Hey! What can I do for you? 
+      Hallo! Was kann ich für Dich tun? 
   - text: |
-      Namaste, Kahiyae Apki Sahayata Kaise Karun ?
-  - text: |   
-      Hola !!
-  - text: |    
-      Bonjour :)
-  - text: |
-      Nǐn hǎo *_*
-  - text: |
-      Asalaam alaikum ^_^
-  - text: | 
-      Namaste, Namaskar Apka _||_ 
+      Hallo, wie kann ich Ihnen helfen?
 
   utter_goodbye:
   - text: |
-      Bye
+      Tschüss
   - text: |
-      It was nice talking to you.
+      Es war schön, mit Ihnen zu sprechen.
   - text: |
-      See you again!
+      Wir sehen uns wieder!
   - text: |
-     Bye for Now !! 
+      Tschüss für heute !!
 
   utter_thanks:
   - text: |
-      Glad that I could be of help!
+      Schön, dass ich helfen konnte!
   - text: |
-      Thank you!
+      Dankeschön!
   - text: |
-      Happy to help :)  
+      Freue mich zu helfen :)  
 
   utter_did_that_help:
   - text: |
-      Did that help you ?? 
+      Hat dir das geholfen? 
 
   utter_sorry:
   - text: |
-      Currently we dont have information about that language ! Sorry :( 
+      Derzeit haben wir keine Informationen zu dieser Sprache! Es tut uns leid :( 
   - text: |
-      Sorry, will improve my search next time !!  
+      Entschuldigung, ich werde meine Suche beim nächsten Mal verbessern !!  
 
     
 actions:
