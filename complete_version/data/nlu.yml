@@ -1,29 +1,23 @@
 nlu:
 - intent: greet
   examples: |
-    - Hi
-    - Hey
-    - Hi bot
-    - Hey bot
-    - Hello
-    - Good morning
-    - hi again
-    - hi folks
-    - hi Mister
-    - hi pal!
-    - hi there
-    - greetings
-    - hello everybody
-    - hello is anybody there
-    - hello robot
-    - who are you?
-    - what's up
-    - how do you do?
-    - Hola !!
-    - Bonjour :)
-    - Nǐn hǎo *_*
-    - Asalaam alaikum ^_^
-    - Namaste, Namaskar Apka _||_ 
+    - Hallo
+    - Hallo Bot
+    - Guten Tag!
+    - Guten Morgen
+    - Hallo nochmal
+    - Hallo Leute
+    - Hallo Herr
+    - Hi, Kumpel!
+    - Schöne Grüße
+    - Hallo zusammen
+    - Hallo ist da jemand
+    - Hallo Roboter
+    - Wer bist du?
+    - Was geht
+    - Wie geht's?
+    - Grüß Gott!
+    - Guten Abend!
 
 - intent: goodbye
   examples: |
@@ -44,53 +38,39 @@ nlu:
 
 - intent: thanks
   examples: |
-    - Thanks
-    - Thank you
-    - Thank you so much
-    - Thanks bot
-    - Thanks for that
-    - cheers
-    - cheers bro
-    - ok thanks!
-    - perfect thank you
-    - thanks a bunch for everything
-    - thanks for the help
-    - thanks a lot
-    - amazing, thanks
-    - cool, thanks
-    - cool thank you
-    - yes, thanks!
-    - Shukriya Apka 
-    - Buenos dias 
-    - Shukran 
+   - Danke
+   - Danke schön
+   - Danke sehr
+   - Vielen Dank
+   - Tausend Dank
+  - Danke vielmals
+  - Vergelt’s Gott
+  - Sehr aufmerksam
+  - Ich bin dir dankbar
+  - Ich sage dir vielen Dank
+  - Danke, gleichfalls
+  - Ich danke Ihnen
+  - Ich danke dir
+  - Ich möchte mich recht herzlich bedanken
+  - Vielen Dank im Voraus
 
 - intent: affirm
   examples: |
-    - y
-    - Y
-    - yes
-    - yes sure
-    - absolutely
-    - for sure
-    - yes yes yes
-    - definitely
-    - yes, it did.
-    - Haan Sahi ! 
-    - Si 
+    - Ja
+    - ja sicher
+    - Absolut
+    - ja Ja Ja
+    - auf jeden Fall
+    - ja, tat es
 
 - intent: deny
   examples: |
-    - no
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - Nahi !
-    - n
-    - N
-    - Not helping me 
-    - No
+    - Nein
+    - noch nie
+    - Das glaube ich nicht
+    - mag das nicht
+    - auf keinen Fall
+    - nicht wirklich
 
 - intent: lang_search
   examples: |

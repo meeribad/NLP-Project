@@ -6,7 +6,8 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
-
+from googletrans import Translator
+translator = Translator(service_urls=['translate.googleapis.com'])
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -30,6 +31,7 @@ class ActionLanguageSearch(Action):
 
         if len(entities) > 0:
             query_lang = entities.pop()
+            translator.translate("query_lang", dest='en').text
             query_lang = query_lang.lower().capitalize()
             print(query_lang)
             
