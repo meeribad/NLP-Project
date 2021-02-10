@@ -43,16 +43,16 @@ nlu:
    - Danke sehr
    - Vielen Dank
    - Tausend Dank
-  - Danke vielmals
-  - Vergelt’s Gott
-  - Sehr aufmerksam
-  - Ich bin dir dankbar
-  - Ich sage dir vielen Dank
-  - Danke, gleichfalls
-  - Ich danke Ihnen
-  - Ich danke dir
-  - Ich möchte mich recht herzlich bedanken
-  - Vielen Dank im Voraus
+   - Danke vielmals
+   - Vergelt’s Gott
+   - Sehr aufmerksam
+   - Ich bin dir dankbar
+   - Ich sage dir vielen Dank
+   - Danke, gleichfalls
+   - Ich danke Ihnen
+   - Ich danke dir
+   - Ich möchte mich recht herzlich bedanken
+   - Vielen Dank im Voraus
 
 - intent: affirm
   examples: |

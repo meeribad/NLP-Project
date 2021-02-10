@@ -31,7 +31,7 @@ class ActionLanguageSearch(Action):
 
         if len(entities) > 0:
             query_lang = entities.pop()
-            translator.translate("query_lang", dest='en').text
+            translator.translate("query_lang", dest='de').text
             query_lang = query_lang.lower().capitalize()
             print(query_lang)
             
