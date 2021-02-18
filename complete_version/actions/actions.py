@@ -30,18 +30,21 @@ class ActionLanguageSearch(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
 
-        print('Yo!')
         data_path = os.path.join("data", "cldf-datasets-wals-014143f", "cldf", "languages.csv")
         wals_data = pd.read_csv(data_path)
         entities = list(tracker.get_latest_entity_values("language"))
+        print(entities)
 
         if len(entities) > 0:
             query_lang = entities.pop()
             query_lang = str(google_translate(query_lang))
             query_lang = query_lang.lower().capitalize()
+            query_lang = query_lang.strip()
             print(query_lang)
-            
+            print("____")
+            print(wals_data["Name"] == query_lang)
             out_row = wals_data[wals_data["Name"] == query_lang].to_dict("records")
+            print(out_row)
 
             if len(out_row) > 0:
                 out_row = out_row[0]
