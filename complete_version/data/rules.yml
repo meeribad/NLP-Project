@@ -21,7 +21,6 @@ rules:
    - action: country_lang_search
    - action: utter_did_that_help
 
-   
  - rule: respond positively when the user says thank you
    steps:
    - intent: thanks

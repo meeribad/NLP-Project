@@ -48,9 +48,9 @@ class ActionLanguageSearch(Action):
 
             if len(out_row) > 0:
                 out_row = out_row[0]
-                out_text = "Language %s belongs to the Family %s\n with Genus as %s\n and has ISO code %s" % (out_row["Name"], out_row["Family"], out_row["Genus"], out_row["ISO_codes"])
+                out_text = "Die Sprache %s gehört zur Familie %s\n mit Gattung als  %s\n und hat ISO-Code %s" % (out_row["Name"], out_row["Family"], out_row["Genus"], out_row["ISO_codes"])
                 dispatcher.utter_message(text = out_text)
             else:
-                dispatcher.utter_message(text = "Sorry! We don't have records for the language %s" % query_lang)
+                dispatcher.utter_message(text = "Es tut uns leid! Wir haben keine Aufzeichnungen für die Sprache%s" % query_lang)
 
         return []
