@@ -72,6 +72,16 @@ nlu:
     - auf keinen Fall
     - nicht wirklich
 
+- intent: country_Lang_search
+  examples: |
+    - Was ist die Sprache, in der gesprochen wird (Land)
+    - Nennen Sie die Sprache, in der gesprochen wird (Land)
+    - In welcher Sprache wird gesprochen (Land)
+    - Erzähl mir von der Amtssprache in (Land)
+    - Erzähl mir mehr über die Landessprache des (Land)
+    - Hilf mir bei der Suche nach der offiziellen Sprache von (Land)
+
+
 - intent: lang_search
   examples: |
     - Ich möchte etwas über [Hindi](language) wissen.

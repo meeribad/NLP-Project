@@ -11,6 +11,7 @@ intents:
   - lang_search
 entities:
   - language
+  - Land
 
 responses:
   utter_greet:

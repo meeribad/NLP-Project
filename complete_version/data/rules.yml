@@ -14,6 +14,13 @@ rules:
    - intent: lang_search
    - action: action_lang_search
    - action: utter_did_that_help
+
+ - rule: search a language spoken in the country based on user query
+   steps:
+   - intent: country_Lang_search
+   - action: country_lang_search
+   - action: utter_did_that_help
+
    
  - rule: respond positively when the user says thank you
    steps:
