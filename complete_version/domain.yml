@@ -11,10 +11,7 @@ intents:
   - lang_search
 entities:
   - language
-# slots:
-#   email:
-#     type: unfeaturized
-#     influence_conversation: false
+
 responses:
   utter_greet:
   - text: |

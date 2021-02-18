@@ -6,8 +6,6 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
-from googletrans import Translator
-translator = Translator(service_urls=['translate.googleapis.com'])
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -15,6 +13,12 @@ from rasa_sdk.executor import CollectingDispatcher
 
 import pandas as pd
 import os
+import re
+
+def google_translate(word):
+    from google_trans_new import google_translator
+    translator = google_translator()
+    return translator.translate(word, lang_src='de', lang_tgt='en')
 
 class ActionLanguageSearch(Action):
 
@@ -25,13 +29,15 @@ class ActionLanguageSearch(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+
+        print('Yo!')
         data_path = os.path.join("data", "cldf-datasets-wals-014143f", "cldf", "languages.csv")
         wals_data = pd.read_csv(data_path)
         entities = list(tracker.get_latest_entity_values("language"))
 
         if len(entities) > 0:
             query_lang = entities.pop()
-            translator.translate("query_lang", dest='de').text
+            query_lang = str(google_translate(query_lang))
             query_lang = query_lang.lower().capitalize()
             print(query_lang)
             

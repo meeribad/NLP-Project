@@ -34,25 +34,25 @@ nlu:
     - Bis später Alligator
     - Wir werden bald sprechen
     - Ende
-    - Fertig 
+    - Fertig
 
 - intent: thanks
   examples: |
-   - Danke
-   - Danke schön
-   - Danke sehr
-   - Vielen Dank
-   - Tausend Dank
-   - Danke vielmals
-   - Vergelt’s Gott
-   - Sehr aufmerksam
-   - Ich bin dir dankbar
-   - Ich sage dir vielen Dank
-   - Danke, gleichfalls
-   - Ich danke Ihnen
-   - Ich danke dir
-   - Ich möchte mich recht herzlich bedanken
-   - Vielen Dank im Voraus
+    - Danke
+    - Danke schön
+    - Danke sehr
+    - Vielen Dank
+    - Tausend Dank
+    - Danke vielmals
+    - Vergelt’s Gott
+    - Sehr aufmerksam
+    - Ich bin dir dankbar
+    - Ich sage dir vielen Dank
+    - Danke, gleichfalls
+    - Ich danke Ihnen
+    - Ich danke dir
+    - Ich möchte mich recht herzlich bedanken
+    - Vielen Dank im Voraus
 
 - intent: affirm
   examples: |
@@ -74,25 +74,25 @@ nlu:
 
 - intent: lang_search
   examples: |
-    - Ich möchte etwas über [Hindi] (Sprache) wissen.
-    - Können Sie bitte [Spanisch] (Sprache) suchen?
-    - Benötigen Sie weitere Informationen für [Französisch] (Sprache)
-    - Lookup [gujrati] (Sprache)
-    - Hilf mir, [urdu] (Sprache) zu finden
-    - Kennen Sie [russisch] (Sprache)
-    - Hilf mir bei der Suche nach [Italienisch] (Sprache)
-    - Willst du etwas über [Deutsch] lernen (Sprache)
-    - Was ist [Arabisch] (Sprache)
-    - Ich wollte mehr über [Griechisch] (Sprache) erfahren.
-    - Was kannst du mir über [Tamil] (Sprache) erzählen?
-    - Hilf mir, mehr über [konkani] (Sprache) zu erfahren.
-    - Bitte suchen Sie nach [marathi] (Sprache)?
-    - Benötigen Sie Ressourcen zu [Französisch] (Sprache)
-    - Kannst du etwas über [gujrati] (Sprache) erzählen?
-    - Was weißt du über [thailändisch] (Sprache)
-    - Wirst du nach [russisch] (Sprache) suchen?
-    - Hilf mir beim Erlernen von [Italienisch] (Sprache)
-    - Bitte geben Sie weitere Informationen zu [Deutsch] (Sprache)
-    - Zeig mir Ergebnisse für [türkisch] (Sprache)
-    - Erfahren Sie mehr über [Griechisch] (Sprache)
-    - Hilf mir nach [telegu] (Sprache) zu suchen
+    - Ich möchte etwas über [Hindi](language) wissen.
+    - Können Sie bitte [Spanisch](language) suchen?
+    - Benötigen Sie weitere Informationen für [Französisch](language)
+    - Lookup [gujrati](language)
+    - Hilf mir, [urdu](language) zu finden
+    - Kennen Sie [russisch](language)
+    - Hilf mir bei der Suche nach [Italienisch](language)
+    - Willst du etwas über [Deutsch] lernen(language)
+    - Was ist [Arabisch](language)
+    - Ich wollte mehr über [Griechisch](language) erfahren.
+    - Was kannst du mir über [Tamil](language) erzählen?
+    - Hilf mir, mehr über [konkani](language) zu erfahren.
+    - Bitte suchen Sie nach [marathi](language)?
+    - Benötigen Sie Ressourcen zu [Französisch](language)
+    - Kannst du etwas über [gujrati](language) erzählen?
+    - Was weißt du über [thailändisch](language)
+    - Wirst du nach [russisch](language) suchen?
+    - Hilf mir beim Erlernen von [Italienisch](language)
+    - Bitte geben Sie weitere Informationen zu [Deutsch](language)
+    - Zeig mir Ergebnisse für [türkisch](language)
+    - Erfahren Sie mehr über [Griechisch](language)
+    - Hilf mir nach [telegu](language) zu suchen
