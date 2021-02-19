@@ -72,15 +72,24 @@ nlu:
     - auf keinen Fall
     - nicht wirklich
 
-- intent: country_Lang_search
+- intent: country_lang_search
   examples: |
-    - Was ist die Sprache, in der gesprochen wird(Land)
-    - Im(Land)gesprochene Sprache
-    - Nennen Sie die Sprache, in der gesprochen wird(Land)
-    - In welcher Sprache wird gesprochen(Land)
-    - Erzähl mir von der Amtssprache in(Land)
-    - Erzähl mir mehr über die Landessprache des(Land)
-    - Hilf mir bei der Suche nach der offiziellen Sprache von(Land)
+    - Was ist die Sprache, in der gesprochen wird [Indien](Land)
+    - Im [Indien](Land) gesprochene Sprache
+    - Nennen Sie die Sprache, in der gesprochen wird [Indien](Land)
+    - In welcher Sprache wird gesprochen [Indien](Land)
+    - Erzähl mir von der Amtssprache in [Indien](Land)
+    - Erzähl mir mehr über die Landessprache des [Indien](Land)
+    - Hilf mir bei der Suche nach der offiziellen Sprache von [Indien](Land)
+
+- intent: lang_param_search
+  examples: |
+    - Was sind die Eigenschaften der deutschen Sprache ?
+    - Eigenschaften der deutschen Sprache ?
+    - Was sind die Merkmale der deutschen Sprache ?
+    - Merkmale sind von deutscher Sprache ?
+    - Attribute sind von deutscher Sprache ?
+    - Was sind die Attribute der deutschen Sprache ?
 
 
 - intent: lang_search

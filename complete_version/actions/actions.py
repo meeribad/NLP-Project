@@ -59,7 +59,7 @@ class ActionLanguageSearch(Action):
 
 class ActionCountrySearch(Action):    
     def name(self) -> Text:
-        return "country_lang_search"
+        return "country_search"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -68,20 +68,54 @@ class ActionCountrySearch(Action):
         # change the data path according to where you are fetching the data from 
         data_path = os.path.join("data", "cldf-datasets-wals-014143f", "cldf", "country.csv") 
         wals_data = pd.read_csv(data_path)
+        print(wals_data.head())
         country_entitiy = list(tracker.get_latest_entity_values("Land")) # assuming that the entity name is country
+        print("lang search")
+        print(country_entitiy)
 
         if len(country_entitiy) > 0:
             country_name = country_name_gi = country_entitiy.pop()
-            country_name = translator.translate(country_name, dest='en').text
+           #country_name = translator.translate(country_name, dest='en').text
             country_name = country_name.strip()
 
             out_row = wals_data[wals_data["Land"] == country_name]
+            print(out_row)
 
             if len(out_row) > 0:
                 language_name = out_row['Offizielle Sprache'].values[0]
-                out_text = "Die Sprache %s wird gesprochen %s" % (language_name,country_name_gi)
+                other_language_name = out_row['Weit verbreitet'].values[0]
+                out_text = "Die offizielle Sprache in %s wird %s gesprochen und die anderen weit verbreiteten Sprachen sind %s" % (country_name_gi,language_name,other_language_name)
                 dispatcher.utter_message(text = out_text)
             else:
                 dispatcher.utter_message(text = "Keine Datensätze gefunden für %s" % country_name_gi)
+
+        return []
+
+
+class ActionParamSearch(Action):    
+    def name(self) -> Text:
+        return "german_param_search"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # change the data path according to where you are fetching the data from 
+        data_path = os.path.join("data", "cldf-datasets-wals-014143f", "cldf", "german-params.csv") 
+        wals_data = pd.read_csv(data_path)
+        print(wals_data.head())
+        print("german param search")
+        
+
+        if len(wals_data) > 0:
+            
+            out_row = wals_data.head()[['Namen','Parameter']]
+            print(out_row)
+
+            if len(out_row) > 0:
+                out_text = "Bitte finden Sie die Eigenschaften der deutschen Sprache sind \n %s " % (out_row)
+                dispatcher.utter_message(text = out_text)
+            else:
+                dispatcher.utter_message(text = "Leider konnten Sie keine deutschen Spracheigenschaften finden, nach denen Sie gesucht haben ")
 
         return []

@@ -17,8 +17,14 @@ rules:
 
  - rule: search a language spoken in the country based on user query
    steps:
-   - intent: country_Lang_search
-   - action: country_lang_search
+   - intent: country_lang_search
+   - action: country_search
+   - action: utter_did_that_help
+
+ - rule: search the parameters of the language spoken in the country based on user query
+   steps:
+   - intent: lang_param_search
+   - action: german_param_search
    - action: utter_did_that_help
 
  - rule: respond positively when the user says thank you

@@ -9,7 +9,8 @@ intents:
   - affirm
   - deny
   - lang_search
-  - country_Lang_search
+  - country_lang_search
+  - lang_param_search
 entities:
   - language
   - Land
@@ -59,7 +60,8 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_lang_search
-- country_lang_search
+- country_search
+- german_param_search
 - utter_thanks
 - utter_did_that_help
 - utter_sorry
