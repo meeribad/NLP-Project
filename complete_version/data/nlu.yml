@@ -75,6 +75,7 @@ nlu:
 - intent: country_Lang_search
   examples: |
     - Was ist die Sprache, in der gesprochen wird(Land)
+    - Im(Land)gesprochene Sprache
     - Nennen Sie die Sprache, in der gesprochen wird(Land)
     - In welcher Sprache wird gesprochen(Land)
     - Erzähl mir von der Amtssprache in(Land)
