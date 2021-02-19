@@ -1,0 +1,158 @@
+﻿ID,Namen,Parameter,Sprache
+1A-ger,Durchschnittliche,Konsonanten Vorräte,Deutsch
+2A-ger,Groß (7-14),Vokalqualitätsinventare,Deutsch
+3A-ger,Niedrig,Konsonant-Vokal-Verhältnis,Deutsch
+4A-ger,Sowohl in Plosiven als auch in Frikativen,Voicing in Plosives und Fricatives,Deutsch
+5A-ger,Keine fehlt in /p t k b d g/,Voicing und Lücken in Plosive Systemen,Deutsch
+6A-ger,Nur Uvularkontinuanzien,Uvuläre Konsonanten,Deutsch
+7A-ger,Keine glottalisierten Konsonanten,Glottalisierte Konsonanten,Deutsch
+8A-ger,"/l/, nicht behindernde Seiten",Lateral Consonants,Deutsch
+9A-ger,Keine anfängliche Velar-Nase,Die Velar Nasal,Deutsch
+10A-ger,Kontrast fehlt,Vokal-Nasalisierung,Deutsch
+11A-ger,Hoch und Mitte,Abgerundete Vokale vorn,Deutsch
+12A-ger,Komplex,Silbestruktur,Deutsch
+13A-ger,Keine Tonnen,Ton,Deutsch
+14A-ger,Keine feste Belastung,Feste Spannungspositionen,Deutsch
+15A-ger,Rechtsorientiert: Einer der letzten drei,Gewichtsempfindlicher Stress,Deutsch
+16A-ger,Coda-Konsonant,Gewichtsfaktoren in gewichtsempfindlichen Stresssystemen,Deutsch
+17A-ger,Trochaic,Rhythmustypen,Deutsch
+18A-ger,Alle Anwesenden,Abwesenheit von gemeinsamen Konsonanten,Deutsch
+19A-ger,nichts,Vorhandensein von ungewöhnlichen Konsonanten,Deutsch
+20A-ger,Exklusiv koncatenative,Fusion ausgewählter inflektionaler Formative,Deutsch
+21A-ger,Fall + Nummer,Exponenz ausgewählter inflektionaler Formative,Deutsch
+21B-ger,monoexponentielle TAM,Exponenz der Tense-Aspect-Mood-Inflection,Deutsch
+22A-ger,2-3 Kategorien pro Wort,Inflectionale Synthese des Verbs,Deutsch
+23A-ger,Abhängige Markierung,Ort der Markierung in der Klausel,Deutsch
+24A-ger,Abhängige Markierung,Locus der Markierung in Possessive Noun Phrasen,Deutsch
+25A-ger,Abhängige Markierung,Locus of Marking: Ganzsprachige Typologie,Deutsch
+25B-ger,Nicht-Null-Markierung,Nullmarkierung von A- und P-Argumenten,Deutsch
+26A-ger,Stark suffixing,Präfixierung vs. Suffixing in der inflectionalmorphology,Deutsch
+27A-ger,Keine produktive Reduplikation,Reduplizierung,Deutsch
+28A-ger,Kern und Nicht-Kern,Fall-Synkretismus,Deutsch
+29A-ger,Synkretisch,Synkretismus in verbalen Personen-/Nummernmarkierung,Deutsch
+30A-ger,Drei,Anzahl der Geschlechter,Deutsch
+31A-ger,Sex-basiert,Sexbasierte und nicht-sexuelle Geschlechtersysteme,Deutsch
+32A-ger,Semantisch und formal,Systeme der Geschlechterzuweisung,Deutsch
+33A-ger,Plural-Suffix,Codierung der Nominalpluralität,Deutsch
+34A-ger,"Alle Substantive, immer obligatorisch",Vorkommen der Nominalpluralität,Deutsch
+35A-ger,Personen-Nummernstamm,Pluralität in unabhängigen Personalpronomen,Deutsch
+36A-ger,Einzigartige periphrastische assoziative Plural,Der assoziative Plural,Deutsch
+37A-ger,"Bestimmtes Wort, das sich von demonstrativen unterscheidet",Definite Artikel,Deutsch
+38A-ger,"Unbestimmtes Wort wie ""eins""",Unbefristete Artikel,Deutsch
+39A-ger,Kein inklusiv/exklusiv,Inklusive/exklusive Unterscheidung in unabhängigen Pronomen,Deutsch
+40A-ger,Kein inklusiv/exklusiv,Inklusive/exklusive Unterscheidung in der verbalen Beugung,Deutsch
+41A-ger,Kein Abstandskontrast,Entfernungskontraste in Demonstranten,Deutsch
+42A-ger,Identisch,Pronominale und Adnominale Demonstrative,Deutsch
+43A-ger,Verwandt nach Geschlechtsmarkern,Dritte Person Pronomen und Demonstrative,Deutsch
+44A-ger,Nur 3. Person Singular,Geschlechterunterschiede in unabhängigen Personalpronomen,Deutsch
+45A-ger,Binäre Höflichkeitsunterscheidung,Höflichkeitsunterschiede in Pronomen,Deutsch
+46A-ger,Gemischten,Unendliche Pronomen,Deutsch
+47A-ger,Differenzierte,Verstärker und Reflexive Pronomen,Deutsch
+48A-ger,Keine Personenmarkierung,Personenmarkierung auf Adpositionen,Deutsch
+49A-ger,4 Fälle,Anzahl der Fälle,Deutsch
+50A-ger,Synkretismus in relevanten NP-Typen,Asymmetrische Gehäusemarkierung,Deutsch
+51A-ger,Case suffixes,Position of Case Affixes,Deutsch
+52A-ger,Identity,Comitatives and Instrumentals,Deutsch
+53A-ger,"First, two-th, three-th",Ordinal Numerals,Deutsch
+54A-ger,Marked by preceding word,Distributive Numerals,Deutsch
+55A-ger,Absent,Numeral Classifiers,Deutsch
+57A-ger,No possessive affixes,Position of Pronominal Possessive Affixes,Deutsch
+58A-ger,Absent,Obligatory Possessive Inflection,Deutsch
+58B-ger,None reported,Number of Possessive Nouns,Deutsch
+59A-ger,No possessive classification,Possessive Classification,Deutsch
+62A-ger,Ergative-Possessive,Action Nominal Constructions,Deutsch
+64A-ger,Identity,Nominal and Verbal Conjunction,Deutsch
+65A-ger,No grammatical marking,Perfective/Imperfective Aspect,Deutsch
+66A-ger,"Present, no remoteness distinctions",The Past Tense,Deutsch
+67A-ger,No inflectional future,The Future Tense,Deutsch
+68A-ger,From possessive,The Perfect,Deutsch
+69A-ger,Tense-aspect suffixes,Position of Tense-Aspect Affixes,Deutsch
+70A-ger,Second singular,The Morphological Imperative,Deutsch
+71A-ger,Normal imperative + normal negative,The Prohibitive,Deutsch
+72A-ger,Neither type of system,Imperative-Hortative Systems,Deutsch
+73A-ger,Inflectional optative absent,The Optative,Deutsch
+74A-ger,Verbal constructions,Situational Possibility,Deutsch
+75A-ger,Verbal constructions,Epistemic Possibility,Deutsch
+76A-ger,Overlap for both possibility and necessity,Overlap between Situational and Epistemic Modal Marking,Deutsch
+77A-ger,Indirect only,Semantic Distinctions of Evidentiality,Deutsch
+78A-ger,Modal morpheme,Coding of Evidentiality,Deutsch
+79A-ger,Tense,Suppletion According to Tense and Aspect,Deutsch
+79B-ger,None (= no suppletive imperatives reported in the reference material),Suppletion in Imperatives and Hortatives,Deutsch
+80A-ger,None,Verbal Number and Suppletion,Deutsch
+81A-ger,No dominant order,"Order of Subject, Object and Verb",Deutsch
+81B-ger,SOV or SVO,"Languages with two Dominant Orders of Subject, Object, and Verb",Deutsch
+82A-ger,SV,Order of Subject and Verb,Deutsch
+83A-ger,No dominant order,Order of Object and Verb,Deutsch
+84A-ger,No dominant order,"Order of Object, Oblique, and Verb",Deutsch
+85A-ger,Prepositions,Order of Adposition and Noun Phrase,Deutsch
+86A-ger,Noun-Genitive,Order of Genitive and Noun,Deutsch
+87A-ger,Adjective-Noun,Order of Adjective and Noun,Deutsch
+88A-ger,Demonstrative-Noun,Order of Demonstrative and Noun,Deutsch
+89A-ger,Numeral-Noun,Order of Numeral and Noun,Deutsch
+90A-ger,Noun-Relative clause,Order of Relative Clause and Noun,Deutsch
+90C-ger,Noun-Relative clause (NRel) dominant,Postnominal relative clauses,Deutsch
+91A-ger,Degree word-Adjective,Order of Degree Word and Adjective,Deutsch
+92A-ger,No question particle,Position of Polar Question Particles,Deutsch
+93A-ger,Initial interrogative phrase,Position of Interrogative Phrases in Content Questions,Deutsch
+94A-ger,Initial subordinator word,Order of Adverbial Subordinator and Clause,Deutsch
+95A-ger,Other,Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase,Deutsch
+96A-ger,Other,Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun,Deutsch
+97A-ger,Other,Relationship between the Order of Object and Verb and the Order of Adjective and Noun,Deutsch
+98A-ger,Nominative - accusative (standard),Alignment of Case Marking of Full Noun Phrases,Deutsch
+99A-ger,Nominative - accusative (standard),Alignment of Case Marking of Pronouns,Deutsch
+100A-ger,Accusative,Alignment of Verbal Person Marking,Deutsch
+101A-ger,Obligatory pronouns in subject position,Expression of Pronominal Subjects,Deutsch
+102A-ger,Only the A argument,Verbal Person Marking,Deutsch
+103A-ger,No zero realization,Third Person Zero of Verbal Person Marking,Deutsch
+104A-ger,A and P do not or do not both occur on the verb,Order of Person Markers on the Verb,Deutsch
+105A-ger,Indirect-object construction,Ditransitive Constructions: The Verb 'Give',Deutsch
+106A-ger,Mixed,Reciprocal Constructions,Deutsch
+107A-ger,Present,Passive Constructions,Deutsch
+108A-ger,No antipassive,Antipassive Constructions,Deutsch
+108B-ger,no antipassive,Productivity of the Antipassive Construction,Deutsch
+109A-ger,No applicative construction,Applicative Constructions,Deutsch
+109B-ger,No applicative construction,Other Roles of Applied Objects,Deutsch
+110A-ger,Sequential but no purposive,Periphrastic Causative Constructions,Deutsch
+111A-ger,Morphological but no compound,Nonperiphrastic Causative Constructions,Deutsch
+112A-ger,Negative particle,Negative Morphemes,Deutsch
+113A-ger,Symmetric,Symmetric and Asymmetric Standard Negation,Deutsch
+114A-ger,Non-assignable,Subtypes of Asymmetric Standard Negation,Deutsch
+115A-ger,No predicate negation,Negative Indefinite Pronouns and Predicate Negation,Deutsch
+116A-ger,Interrogative word order,Polar Questions,Deutsch
+122A-ger,Relative pronoun,Relativization on Subjects,Deutsch
+123A-ger,Relative pronoun,Relativization on Obliques,Deutsch
+124A-ger,Subject is left implicit,'Want' Complement Subjects,Deutsch
+125A-ger,Balanced/deranked,Purpose Clauses,Deutsch
+126A-ger,Balanced/deranked,'When' Clauses,Deutsch
+127A-ger,Balanced,Reason Clauses,Deutsch
+129A-ger,Different,Hand and Arm,Deutsch
+130A-ger,Different,Finger and Hand,Deutsch
+131A-ger,Decimal,Numeral Bases,Deutsch
+132A-ger,6,Number of Non-Derived Basic Colour Categories,Deutsch
+133A-ger,11,Number of Basic Colour Categories,Deutsch
+134A-ger,Green vs. blue,Green and Blue,Deutsch
+135A-ger,Red vs. yellow,Red and Yellow,Deutsch
+136A-ger,"M-T pronouns, paradigmatic",M-T Pronouns,Deutsch
+136B-ger,m in der ersten Person Singular,M in First Person Singular,Deutsch
+137A-ger,Keine N-M-Pronomen,N-M Pronouns,Deutsch
+137B-ger,Kein m in der zweiten Person Singular,M in Second Person Singular,Deutsch
+138A-ger,Wörter abgeleitet von Min Nan Chinese te,Tee,Deutsch
+142A-ger,Affektive Bedeutungen,Paralinguistische Verwendungen von Klicks,Deutsch
+143A-ger,Typ 1 / Typ 2,Orden von Negativemorpheme und Verb,Deutsch
+143E-ger,NegV,Präverbale Negative Morphemen,Deutsch
+143F-ger,VNeg,Postverbale Negative Morphemen,Deutsch
+143G-ger,nichts,Kleinere morphologische Mittel zur Verneinung,Deutsch
+144A-ger,Mehr als eine Position,"Position des negativen Wortes in Bezug auf Subjekt, Objekt und Verb",Deutsch
+144B-ger,"Ende, nicht immed postverbal",Position der negativen Wörter relativ zu Anfang und Ende der Klausel und in Bezug auf die Adjacency zu Verb,Deutsch
+144D-ger,Mehr als eine Konstruktion,Die Position negativer Morphemen in SVO-Sprachen,Deutsch
+144E-ger,SVONeg/SONegV,Mehrere Negativkonstruktionen in SVO-Sprachen,Deutsch
+144H-ger,Kein NegSVO,NegSVO-Bestellung,Deutsch
+144I-ger,Kein SNegVO,SNegVO-Bestellung,Deutsch
+144J-ger,Kein SVNegO,SVNegO-Orden,Deutsch
+144K-ger,NoDoubleNeg,SVONeg-Auftrag,Deutsch
+144L-ger,Mehr als eine Konstruktion,Die Position negativer Morpheme in SOV-Sprachen,Deutsch
+144M-ger,SONegV/SVONeg,Mehrere Negative Konstruktionen in SOV-Sprachen,Deutsch
+144P-ger,Kein NegSOV,NegSOV-Bestellung,Deutsch
+144Q-ger,Nein SNegOV,SNegOV-Bestellung,Deutsch
+144R-ger,Word&NoDoubleNeg,SONegV-Bestellung,Deutsch
+144S-ger,NoSOVNeg,SOVNeg-Auftrag,Deutsch
