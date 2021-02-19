@@ -75,12 +75,12 @@ nlu:
 - intent: country_lang_search
   examples: |
     - Was ist die Sprache, in der gesprochen wird [Indien](Land)
-    - Im [Indien](Land) gesprochene Sprache
-    - Nennen Sie die Sprache, in der gesprochen wird [Indien](Land)
-    - In welcher Sprache wird gesprochen [Indien](Land)
-    - Erzähl mir von der Amtssprache in [Indien](Land)
-    - Erzähl mir mehr über die Landessprache des [Indien](Land)
-    - Hilf mir bei der Suche nach der offiziellen Sprache von [Indien](Land)
+    - Im [Brunei](Land) gesprochene Sprache
+    - Nennen Sie die Sprache, in der gesprochen wird [Bhutan](Land)
+    - In welcher Sprache wird gesprochen [Dänemark](Land)
+    - Erzähl mir von der Amtssprache in [Finnland](Land)
+    - Erzähl mir mehr über die Landessprache des [Deutschland](Land)
+    - Hilf mir bei der Suche nach der offiziellen Sprache von [Guatemala](Land)
 
 - intent: lang_param_search
   examples: |
@@ -113,6 +113,6 @@ nlu:
     - Wirst du nach [russisch](language) suchen?
     - Hilf mir beim Erlernen von [English](language)
     - Bitte geben Sie weitere Informationen zu [Deutsch](language)
-    - Zeig mir Ergebnisse für [türkisch](language)
+    - Zeig mir Ergebnisse für [](language)
     - Erfahren Sie mehr über [Griechisch](language)
     - Hilf mir nach [telegu](language) zu suchen
