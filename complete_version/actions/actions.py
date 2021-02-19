@@ -54,3 +54,34 @@ class ActionLanguageSearch(Action):
                 dispatcher.utter_message(text = "Es tut uns leid! Wir haben keine Aufzeichnungen für die Sprache%s" % query_lang)
 
         return []
+
+
+
+class ActionCountrySearch(Action):    
+    def name(self) -> Text:
+        return "country_lang_search"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # change the data path according to where you are fetching the data from 
+        data_path = os.path.join("data", "cldf-datasets-wals-014143f", "cldf", "country.csv") 
+        wals_data = pd.read_csv(data_path)
+        country_entitiy = list(tracker.get_latest_entity_values("Land")) # assuming that the entity name is country
+
+        if len(country_entitiy) > 0:
+            country_name = country_name_gi = country_entitiy.pop()
+            country_name = translator.translate(country_name, dest='en').text
+            country_name = country_name.strip()
+
+            out_row = wals_data[wals_data["Land"] == country_name]
+
+            if len(out_row) > 0:
+                language_name = out_row['Offizielle Sprache'].values[0]
+                out_text = "Die Sprache %s wird gesprochen %s" % (language_name,country_name_gi)
+                dispatcher.utter_message(text = out_text)
+            else:
+                dispatcher.utter_message(text = "Keine Datensätze gefunden für %s" % country_name_gi)
+
+        return []
