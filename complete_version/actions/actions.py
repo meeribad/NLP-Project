@@ -48,7 +48,7 @@ class ActionLanguageSearch(Action):
 
             if len(out_row) > 0:
                 out_row = out_row[0]
-                out_text = "Die Sprache %s gehört zur Familie %s\n mit Gattung als  %s\n und hat ISO-Code %s" % (out_row["Name"], out_row["Family"], out_row["Genus"], out_row["ISO_codes"])
+                out_text = "Die Sprache %s gehört zur Familie %s\n mit Gattung als  %s\n und hat ISO-Code %s \n Hat dir das geholfen? " % (out_row["Name"], out_row["Family"], out_row["Genus"], out_row["ISO_codes"])
                 dispatcher.utter_message(text = out_text)
             else:
                 dispatcher.utter_message(text = "Es tut uns leid! Wir haben keine Aufzeichnungen für die Sprache%s" % query_lang)
@@ -84,7 +84,7 @@ class ActionCountrySearch(Action):
             if len(out_row) > 0:
                 language_name = out_row['Offizielle Sprache'].values[0]
                 other_language_name = out_row['Weit verbreitet'].values[0]
-                out_text = "Die offizielle Sprache in %s wird %s gesprochen und die anderen weit verbreiteten Sprachen sind %s" % (country_name_gi,language_name,other_language_name)
+                out_text = "Die offizielle Sprache in %s wird %s gesprochen und die anderen weit verbreiteten Sprachen sind %s \n Hat dir das geholfen? " % (country_name_gi,language_name,other_language_name)
                 dispatcher.utter_message(text = out_text)
             else:
                 dispatcher.utter_message(text = "Keine Datensätze gefunden für %s" % country_name_gi)
@@ -113,7 +113,7 @@ class ActionParamSearch(Action):
             print(out_row)
 
             if len(out_row) > 0:
-                out_text = "Bitte finden Sie die Eigenschaften der deutschen Sprache sind \n %s " % (out_row)
+                out_text = "Bitte finden Sie die Eigenschaften der deutschen Sprache sind \n %s \n Hat dir das geholfen? " % (out_row)
                 dispatcher.utter_message(text = out_text)
             else:
                 dispatcher.utter_message(text = "Leider konnten Sie keine deutschen Spracheigenschaften finden, nach denen Sie gesucht haben ")

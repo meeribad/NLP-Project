@@ -80,6 +80,7 @@ nlu:
     - In welcher Sprache wird gesprochen [Dänemark](Land)
     - Erzähl mir von der Amtssprache in [Finnland](Land)
     - Erzähl mir mehr über die Landessprache des [Deutschland](Land)
+    - Was ist die Sprache, die in [Schweden](Land) gesprochen wird?
     - Hilf mir bei der Suche nach der offiziellen Sprache von [Guatemala](Land)
 
 - intent: lang_param_search
@@ -113,6 +114,10 @@ nlu:
     - Wirst du nach [russisch](language) suchen?
     - Hilf mir beim Erlernen von [English](language)
     - Bitte geben Sie weitere Informationen zu [Deutsch](language)
-    - Zeig mir Ergebnisse für [](language)
+    - Zeig mir Ergebnisse für [Deutsch](language)
     - Erfahren Sie mehr über [Griechisch](language)
     - Hilf mir nach [telegu](language) zu suchen
+    - Kannst du mir etwas über [Deutsch](language) erzählen?
+    - Erzähl mir mehr über [Deutsch](language) ?
+    - Hey Bot, erzähl mir etwas über die [englische](language) ?
+    - Möchten Sie mehr über [Englisch](language) erfahren?
